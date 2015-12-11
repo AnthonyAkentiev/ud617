@@ -1,2 +1,5 @@
 See Udacity course here:
 www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617
+
+Install VM and get source data:
+docs.google.com/document/d/1v0zGBZ6EHap-Smsr3x3sGGpDW-54m82kDpPKC2M6uiY/edit
