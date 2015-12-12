@@ -27,6 +27,7 @@ def isContains(str):
 
     return (not is1)
 
+# We filter items (see description above)
 def mapper():
     reader = csv.reader(sys.stdin, delimiter='\t')
     writer = csv.writer(sys.stdout, delimiter='\t', quotechar='"', quoting=csv.QUOTE_ALL)
@@ -36,11 +37,8 @@ def mapper():
     for line in reader:
         body = line[4]
 
-        # YOUR CODE HERE
         if isContains(body):
             writer.writerow(line)
-
-
 
 test_text = """\"\"\t\"\"\t\"\"\t\"\"\t\"This is one sentence\"\t\"\"
 \"\"\t\"\"\t\"\"\t\"\"\t\"Also one sentence!\"\t\"\"
