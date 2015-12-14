@@ -20,6 +20,8 @@ def processLine(l,ids):
 
      return count
 
+# This is simple 'non Map-Reduce' script
+# To see Map-Reduce version - see mapper.py
 def main():
      if len(sys.argv)!=2:
           print "Please pass filename"
